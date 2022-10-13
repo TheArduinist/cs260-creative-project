@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous" />
+    <link rel="stylesheet" href="styles/main.css" type="text/css" />
+    <title>Bonsai Blog - Your Trees</title>
+</head>
+
+<body>
+    <div class="tint"></div>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light drop-shadow">
+        <a class="navbar-brand" href="index.html">Bonsai Blog</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="top-posts.html">Top Posts</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="search.html">Search Blogs</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="your-trees.html">Your Trees <span class="sr-only">(current)</span></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="side-nav-container">
+        <div class="side-nav drop-shadow">
+            <ul>
+                <li class="active"><span>My Maple</span></li>
+                <li><span>My Juniper</span></li>
+                <li><span>My Oak</span></li>
+                <br />
+                <br />
+                <li style="border-top: 1px solid white;"><span>+ Add New</span></li>
+            </ul>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <h5>Profile Photo</h5>
+                        <img src="" id="profile" />
+                        <input type="file" id="profileUploader" class="hidden">
+                        <a href="#" class="button" id="changeProfile">Change</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <h5>Bio</h5>
+                        <textarea rows="10" placeholder="Write a short bio here" style="resize: none;"></textarea>
+                        <a href="#" class="button">Save</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <h5>Posts</h5>
+                        <a href="#" class="button">Create New Post</a>
+                    </div>
+                    <div class="card">
+                        <h5>Nothing here yet!</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="js/your-trees.js"></script>
+</body>
+
+</html>
